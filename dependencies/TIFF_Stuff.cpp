@@ -178,6 +178,8 @@ INT16 _GetInputImageDimensions(TIFFHeader* MyTIFFHeader) {
 	// The image is open now, and you have your image size and band size
 	// Figure out how many bands you need, based on image band height vs. image height
 	// ** Now you can start halftoning the image **
+
+
 	
 	TIFFClose(inputTIFF);													// Close the TIFF image file one you are done
 	return 0;																// No errors, so return zero
